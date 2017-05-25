@@ -22,7 +22,7 @@ module.exports = React.createClass({
           </p>
         </article>
 
-        <script src="./bundle.js" />
+        <script src="/bundle.js" />
 
       </body>
       </html>

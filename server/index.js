@@ -5,9 +5,9 @@ var express = require('express');
 var app = express();
 var React = require('react');
 var ReactDOMServer = require('react-dom/server');
-var Component = require('./Component.jsx');
+var Component = require('../shared/Component.jsx');
 
-app.use(express.static('public'));
+app.use(express.static('dist'));
 
 app.get('/', function(request, response){
   var html = ReactDOMServer.renderToString(

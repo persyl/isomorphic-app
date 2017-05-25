@@ -9559,7 +9559,7 @@ module.exports = React.createClass({
             )
           )
         ),
-        React.createElement('script', { src: './bundle.js' })
+        React.createElement('script', { src: '/bundle.js' })
       )
     );
   }
